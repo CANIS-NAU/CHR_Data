@@ -3,7 +3,7 @@
 ### Overview:
 ##### The CHR Referral Tracking System is a comprehensive and user-friendly tool designed to streamline the referral process for Community Health Representatives (CHRs) from various tribes. As part of their role in providing healthcare services to their communities, CHRs often need to refer clients to other healthcare providers or services for specialized care. The CHR Referral Tracking System provides an efficient and organized approach for CHRs to manage and track these referrals, ensuring timely and appropriate care for their clients.
 
-#### Google-Cloud Version: [link]()
+#### Google-Cloud Version: [link](https://github.com/CANIS-NAU/CHR_Data/tree/main/Google-cloud%20Version)
 ##### The system offers two versions for tracking referrals, providing flexibility based on the organization's needs and infrastructure. The first version is the Google Cloud version, which makes use of the Google Drive ecosystem for secure storage of referral data. This version offers the advantage of easy accessibility from anywhere, on any device with internet connectivity. It also provides robust data management features, such as real-time updates and collaboration among team members, to enhance efficiency and coordination among CHRs.
 
 #### Non-Cloud Version: [link]()
