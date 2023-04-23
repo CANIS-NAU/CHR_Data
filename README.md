@@ -1,31 +1,15 @@
-# CHR Data Follow-Up Reminder
+# CHR Referral Tracking System
 
-#### A data entry and follow-up system for community health resources. 
-#### The CHR Data Follow-Up Reminder is a VBA script that can be added to an Excel file to send reminder emails to specified email addresses about pending follow-ups for referrals. The script checks the referral date and the result of the follow-up and sends reminder emails to the specified email addresses based on the number of days since the referral date.
+### Overview:
+##### The CHR Referral Tracking System is a comprehensive and user-friendly tool designed to streamline the referral process for Community Health Representatives (CHRs) from various tribes. As part of their role in providing healthcare services to their communities, CHRs often need to refer clients to other healthcare providers or services for specialized care. The CHR Referral Tracking System provides an efficient and organized approach for CHRs to manage and track these referrals, ensuring timely and appropriate care for their clients.
 
-## Requirements
-#### To use this script, you need the following:
+#### Google-Cloud Version: [link]()
+##### The system offers two versions for tracking referrals, providing flexibility based on the organization's needs and infrastructure. The first version is the Google Cloud version, which makes use of the Google Drive ecosystem for secure storage of referral data. This version offers the advantage of easy accessibility from anywhere, on any device with internet connectivity. It also provides robust data management features, such as real-time updates and collaboration among team members, to enhance efficiency and coordination among CHRs.
 
-#### Microsoft Excel (2010 or later)
-#### Microsoft Outlook (2010 or later)
+#### Non-Cloud Version: [link]()
+##### The second version is the non-cloud referral tracking system, which can be hosted on a local server. This version offers the advantage of full control over data and system customization, making it suitable for organizations with specific requirements or data privacy concerns. It can be accessed without internet connectivity, making it suitable for remote or offline environments. This version also offers flexibility in terms of customization and integration with other local systems.
 
-## Installation
-#### To install the script, follow these steps:
+### Conclusion:
+##### Both versions of the CHR Referral Tracking System are designed with appropriate measures to comply with HIPAA regulations, ensuring the security and privacy of client information. The system helps CHRs to easily track referrals, monitor the status of referrals, and generate reports for tracking and analysis. It provides an efficient and centralized platform for managing referrals, reducing administrative burden, improving communication among healthcare providers, and ultimately enhancing the quality of care for clients.
 
-#### Open your Excel file.
-#### Press ALT+F11 to open the Visual Basic Editor.
-#### In the Project Explorer, right-click on the name of your Excel file and select "Insert" > "Module".
-#### Copy the contents of the "reminder-email-script.bas" file and paste them into the new module.
-#### Save the Excel file as a macro-enabled workbook with the extension ".xlsm".
-#### Close the Visual Basic Editor.
-
-## Usage
-#### To use the script, follow these steps:
-
-#### Open your Excel file with the script installed.
-#### Enter the necessary data in the "CHR Data" sheet, including the email addresses to send the reminders to.
-#### Whenever a change is made to the referral date or the result of the follow-up, the script will automatically send reminder emails to the specified email addresses based on the number of days since the referral date.
-
-## Customization
-#### You can customize the script by changing the number of days for the reminder emails. To do this, change the values of diffDays in the code to the desired number of days.
-#### You can also customize the email message by changing the text in the Body property of the OutMail object.
+##### The CHR Referral Tracking System is a valuable tool for CHRs and healthcare organizations, helping them to streamline the referral process, improve coordination among healthcare providers, and ensure timely and appropriate care for their clients. With its user-friendly interface, robust data management features, and compliance with HIPAA regulations, the CHR Referral Tracking System is a reliable and efficient solution for managing referrals in a healthcare setting.
