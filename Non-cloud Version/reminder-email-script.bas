@@ -9,6 +9,7 @@ Sub SendReminderEmails()
     Dim currentDate As Date
     Dim diffDays As Integer
     Dim resultOfFollowUp As String
+    Dim recordID As String
     Dim i As Long
     
     On Error Resume Next ' Enable error handling
@@ -21,6 +22,7 @@ Sub SendReminderEmails()
         chrEmail = Cells(i, "B").Value
         referralDate = Cells(i, "D").Value
         resultOfFollowUp = Cells(i, "K").Value
+        recordID = Cells(i, "L").Value
         
         ' Check if the follow-up is still pending and the referral date is not blank
         If resultOfFollowUp = "" And referralDate <> "" Then
@@ -36,7 +38,7 @@ Sub SendReminderEmails()
                 With OutMail
                     .To = chrEmail
                     .Subject = "Reminder for Follow-Up"
-                    .Body = "This is a reminder to follow up on the referral that was made on " & referralDate & ". Please update the result of follow-up in the 'Result of Follow-Up' column of the 'CHR Data' sheet."
+                    .Body = "This is a reminder to follow up on the referral that was made on " & referralDate & " with Record Id: " & recordID & ". Please update the result of follow-up in the 'Result of Follow-Up' column of the 'CHR Data' sheet."
                     .Send
                 End With
                 Set OutMail = Nothing
