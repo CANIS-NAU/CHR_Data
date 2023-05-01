@@ -68,3 +68,5 @@ The Apps Script triggers will automatically send email reminders to CHRs for fol
 ##### That's it! You have successfully installed and set up the CHR Referral Tracking System on Google Drive. You can now start using it to efficiently track and manage referrals made by CHRs to their clients.
 
 #### Video Tutorial:
+
+https://user-images.githubusercontent.com/78487533/235542903-673c49aa-cfe6-4d16-97fe-ad2bd4915460.mp4
