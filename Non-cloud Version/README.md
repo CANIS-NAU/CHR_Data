@@ -33,6 +33,4 @@
 
 #### Video Tutorial:
 
-
-https://user-images.githubusercontent.com/78487533/235532996-99d214b7-e788-4bd9-9d15-73d6453404e7.mp4
-
+https://user-images.githubusercontent.com/78487533/235543084-15ba5e21-334a-47d0-aa03-68c582a7477f.mp4
