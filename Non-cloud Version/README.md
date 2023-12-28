@@ -19,8 +19,19 @@
 
 1. Automated tracking of CHR referral data in the "CHR Referral" sheet.
 2. Automatic updating of the "CHR Referral" with combined values and charts.
-3. Email reminders to CHRs using the reminder email script (reminder-email-script.bas) if the "Result of follow-up" field is empty after a certain number of days.
-4. Ability for CHRs to update their respective referral data in the "CHR Referrals" sheet.
+3. Received by: drop down list of all program staff
+4. In/Out: drop down options for incoming (IN) or outgoing (out) referral type
+5. Patent Needs/Service Request Type: drop down list with common referral/service categories, you can select multiple service request types and
+each new service request will be entered in a new line separated by a comma.
+6. Assign to: drop down list of all program staff
+7. CHR Email: auto-populates email address to assigned CHR chosen in previous field
+8. Reminder frequency: drop down option for daily, weekly, bi-weekly or monthly, chosen based on referral type/urgency
+9. Department: drop down list of all the departments provided by the program
+10. Results: undefined field for CHR comments and notes on referral results
+11. Complete: drop down option for closed or open. When this field is set to open, the CHR selected in the "Assign to" field will receive an email
+reminder at the frequency determined by the "Reminder Frequency" field selection. Once the referral is complete and this field is set to
+closed, the CHR will no longer receive email reminders.
+12. Referral Closed Date: auto-populates the current date when the “Complete” column is set to “Closed”
 
 #### How to Run the Code:
 1. Open the "VBA- Referrals-macro.xlsm" workbook in Microsoft Excel.
