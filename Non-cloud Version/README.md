@@ -44,4 +44,5 @@ closed, the CHR will no longer receive email reminders.
 
 #### Video Tutorial:
 
-https://user-images.githubusercontent.com/78487533/235543084-15ba5e21-334a-47d0-aa03-68c582a7477f.mp4
+https://github.com/CANIS-NAU/CHR_Data/assets/78487533/53c07147-0536-4264-a6e3-7d5d61502eb6
+
